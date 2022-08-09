@@ -7,11 +7,11 @@ inputs:
   image:
     required: true
     description: "Docker image to put into the task definition files"
-  stg-ecs-task-definition-file:
+  stg-beta-ecs-task-definition-file:
     description: "Staging Beta ECS Task definition family filename"
     required: false
     default: task-definition-stg-beta.json
-  prd-ecs-task-definition-file:
+  prd-beta-ecs-task-definition-file:
     description: "Production Beta ECS Task definition family filename"
     required: false
     default: task-definition-prd-beta.json
